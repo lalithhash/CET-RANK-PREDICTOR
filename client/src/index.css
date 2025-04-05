@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your global CSS (e.g., App.css or tailwind.config.css) */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Tailwind custom animation */
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
